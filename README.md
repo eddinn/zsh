@@ -10,7 +10,7 @@ My .zshrc config file with [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh
 
 ### Theme
 
-**ZSH_THEME**="agnoster"
+ZSH_THEME="agnoster"
 
 ### Plugins
 
