@@ -1,4 +1,4 @@
-# ZSH and .zshrc
+## ZSH and .zshrc
 
 My .zshrc config file with [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -6,9 +6,9 @@ My .zshrc config file with [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh
 
 ---
 
-## ZSH and Oh-My-Zsh installation
+### ZSH and Oh-My-Zsh installation
 
-### Ubuntu
+#### Ubuntu
 
 ```bash
 sudo apt install zsh powerline fonts-powerline zsh-syntax-highlighting git curl
@@ -17,7 +17,7 @@ chsh -s $(which zsh) # Might need sudo
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-### Fedora
+#### Fedora
 
 ```bash
 sudo dnf install zsh powerline powerline-fonts zsh-syntax-highlighting git curl
@@ -28,17 +28,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ---
 
-## Theme and plugins
+### Theme and plugins
 
 ```bash
 vim ~/.zshrc
 ```
 
-### Theme
+#### Theme
 
 ZSH_THEME="agnoster"
 
-### Plugins
+#### Plugins
 
 ```.zshrc
 plugins=(
