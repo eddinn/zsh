@@ -1,4 +1,4 @@
-## ZSH and .zshrc
+# ZSH and .zshrc
 
 My .zshrc config file with [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -6,9 +6,9 @@ My .zshrc config file with [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh
 
 ---
 
-### ZSH and Oh-My-Zsh installation
+## ZSH and Oh-My-Zsh installation
 
-#### Ubuntu
+### Ubuntu
 
 ```bash
 sudo apt install zsh powerline fonts-powerline zsh-syntax-highlighting git curl
