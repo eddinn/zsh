@@ -2,7 +2,7 @@
 
 My .zshrc config file with [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh)
 
-- **Global version:** [https://github.com/eddinn/zsh/blob/master/zshrc](https://github.com/eddinn/zsh/blob/master/zshrc)
+- **Global version:** [https://github.com/eddinn/zsh/blob/master/.zshrc](https://github.com/eddinn/zsh/blob/master/.zshrc)
 
 ---
 
