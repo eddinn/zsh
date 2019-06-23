@@ -10,7 +10,7 @@ My .zshrc config file with [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh
 
 ### Ubuntu
 
-```bash
+```zsh
 sudo apt install zsh powerline fonts-powerline zsh-syntax-highlighting git curl
 echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 chsh -s $(which zsh) # Might need sudo
@@ -19,7 +19,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 #### Fedora
 
-```bash
+```zsh
 sudo dnf install zsh powerline powerline-fonts zsh-syntax-highlighting git curl
 echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 chsh -s $(which zsh) # Might need sudo
@@ -30,54 +30,46 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ### Theme and plugins
 
-```bash
+```zsh
 vim ~/.zshrc
 ```
 
 #### Theme
 
+```zsh
 ZSH_THEME="agnoster"
-
-#### Plugins
-
-```.zshrc
-plugins=(
-  git
-  bundler
-  dotenv
-  osx
-  rake
-  rbenv
-  ruby
-)
 ```
 
-#### My .zshrc plugin list
+#### My plugin list
 
-- git
-- dotenv
-- rake
-- ruby
-- ansible
-- autoenv
-- autopep8
-- docker
-- docker-compose
-- docker-machine
-- django
-- git-prompt
-- gnu-utils
-- man
-- nmap
-- npm
-- pip
-- pipenv
-- pyenv
-- pylint
-- python
-- rsync
-- sudo
-- systemd
-- ubuntu
-- virtualenv
-- vscode
+```zsh
+plugins=(
+  git
+  dotenv
+  rake
+  ruby
+  ansible
+  autoenv
+  autopep8
+  docker
+  docker-compose
+  docker-machine
+  django
+  git-prompt
+  gnu-utils
+  man
+  nmap
+  npm
+  pip
+  pipenv
+  pyenv
+  pylint
+  python
+  rsync
+  sudo
+  systemd
+  ubuntu
+  virtualenv
+  vscode
+)
+```
